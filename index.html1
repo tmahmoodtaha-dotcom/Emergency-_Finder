@@ -1,0 +1,70 @@
+ <!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>مستشفى الطوارئ - الرئيسية</title>
+    <link rel="stylesheet" href="style1.css">
+</head>
+<body>
+
+    <div class="hero-section">
+        <div class="logo-container">
+            <img src="WhatsApp Image 2026-04-08 at 1.06.27 PM.jpeg" alt="شعار المستشفى" class="logo">
+        </div>
+
+        <div class="content">
+            <h1> Emergency Finder</h1>
+            <p> we are here for any moment</p>
+            <a href="register.html" style="text-decoration: none;">
+    
+    <a href="index2.html" style="text-decoration: none;">
+    <button class="emergency-btn">⚠️ Urgent Help</button>
+</a>
+            
+        
+       <div class="contact-grid">
+   
+
+    
+ 
+    </div>
+    <script>
+function findNearestHospital() {
+    // هذه هي المستشفيات التي حددتها ليتم تضمينها في البحث
+    const specialHospitals = "مستشفى كليوباترا، المقاولين العرب، معهد السكر القصر العيني";
+    
+    // رابط البحث في خرائط جوجل باستخدام الكلمات الدلالية
+    // سيقوم جوجل بالبحث عن "مستشفيات" قريبة من موقع المستخدم الحالي
+    const googleMapsUrl = `https://www.google.com/maps/search/مستشفيات+قريبة+من+موقعي+${specialHospitals}`;
+    
+    // فتح الرابط في نافذة جديدة
+    window.open(googleMapsUrl, '_blank');
+}
+</script>
+<a href="index3.html" style="text-decoration: none;">
+    <button type="button" class="info-btn">
+        📖 معلومات وإسعافات لكل حالة
+    </button>
+
+</a>
+        
+        <a href="index4.html" style="text-decoration: none;">
+            <button type="button" class="about-btn"> ( why-us-btn ? ) </button>
+       <a href="index5.html" class="btn-link">
+    <button type="button" class="connect-btn">تواصل معنا</button>
+</a>
+
+    </div> </div> <div id="chat-circle" class="btn btn-raised" style="position: fixed; bottom: 20px; right: 20px; background: #4FB3E8; color: white; padding: 15px; border-radius: 50%; cursor: pointer;">
+    شات الطوارئ
+</div>
+
+<div class="chat-box" id="chat-box" style="display: none; position: fixed; bottom: 80px; right: 20px; width: 300px; height: 400px; background: white; border: 1px solid #ddd; z-index: 1000;">
+    <div style="background: #4FB3E8; color: white; padding: 10px;">مساعد Emergency Finder</div>
+    <div id="chat-logs" style="height: 300px; overflow-y: auto; padding: 10px;"></div>
+    <input type="text" id="chat-input" placeholder="اكتب سؤالك هنا..." style="width: 100%; padding: 10px; border: none; border-top: 1px solid #ddd;">
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
