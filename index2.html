@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>تسجيل حالة طوارئ</title>
+    <link rel="stylesheet" href="style2.css">
+</head>
+
+<body>
+
+    <div class="hero-section">
+        <div class="registration-table">
+
+            <h2>🚨 تسجيل حالة طوارئ عاجلة</h2>
+
+            <form>
+                <div class="input-group">
+                    <label>الاسم بالكامل</label>
+                    <input type="text" placeholder="أدخل اسم المريض" required>
+                </div>
+                <div class="input-group">
+                    <label> النوع</label>
+                    <input type="text" placeholder="أدخل نوع المريض" required>
+                </div>
+
+                <div class="input-group">
+                    <label> السن بالكامل</label>
+                    <input type="number" placeholder="أدخل سن المريض" required>
+                </div>
+
+                <div class="input-group">
+                    <label>رقم الهاتف</label>
+                    <input type="tel" placeholder="01XXXXXXXXX" required>
+                </div>
+
+                <div class="input-group">
+                    <label>نوع الحالة</label>
+                    <select required>
+                        <option value="">-- اختر الحالة --</option>
+                        <option>حادث</option>
+                        <option>أزمة قلبية</option>
+                        <option>إغماء</option>
+                        <option>غيبوبه سكر </option>
+                        <option>اسيتون</option>
+                        <option>ارتفاع حراره </option>
+                        <option>حالات الحروق</option>
+                        <option>انخفاض ضغط الدم</option>
+                        <option>ارتفاع ضغط الدم</option>
+                        <option>ضيق تنفس</option>
+                    </select>
+                </div>
+
+                <div class="input-group">
+                    <label>وصف الحالة (اختياري)</label>
+                    <textarea placeholder="اكتب تفاصيل إضافية هنا..."></textarea>
+                </div>
+
+                <button type="submit" class="emergency-btn">إرسال الطلب الآن</button>
+            </form>
+
+            <a href="index1.html" class="back-link">العودة للرئيسية</a>
+
+            /* تنسيق الزرار الجديد */
+            <button type="button" class="nearby-btn " onclick="findNearestHospital()">
+                📍 ابحث عن أقرب مستشفى لموقعك
+            </button>
+    </div>
+
+
+           
+        </body>
+</html >
