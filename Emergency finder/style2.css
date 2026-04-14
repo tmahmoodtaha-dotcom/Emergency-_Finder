@@ -1,0 +1,157 @@
+ /* تنسيق الحاوية (الجدول) */
+.registration-table {
+    background: rgba(199, 210, 219, 0.95); /* لون أبيض مريح */
+    padding: 40px;
+    border-radius: 20px;
+    width: 450px;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.2); /* ظل طبيعي */
+    transition: all 0.4s ease; /* انسيابية التأثير */
+    color: #dbd1d1;
+    border: 2px solid transparent;
+}
+
+/* تأثير الـ Hover (الينور) عند لمس الجدول */
+.registration-table:hover {
+    transform: translateY(-5px); /* يرتفع قليلاً */
+    border-color: #ff6b6b; /* يظهر إطار أحمر خفيف */
+    box-shadow: 0 0 25px rgba(255, 107, 107, 0.6); /* تأثير الإنارة (Glow) */
+}
+
+.registration-table h2 {
+    color: #e74c3c;
+    margin-bottom: 25px;
+    font-size: 1.8rem;
+}
+
+/* تنسيق المجموعات (البيانات تحت بعض) */
+.input-group {
+    text-align: right;
+    margin-bottom: 20px;
+}
+
+.input-group label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 8px;
+    color: #1b0a0a;
+}
+
+.input-group input, 
+.input-group select, 
+.input-group textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #e7e6f3;
+    border-radius: 10px;
+    font-size: 1rem;
+    background: #dee7e8;
+    transition: 0.3s;
+}
+
+/* تأثير عند الضغط داخل الخانات */
+.input-group input:focus, 
+.input-group select:focus {
+    border-color: #ff6b6b;
+    background: #838fb5;
+    outline: none;
+}
+
+.back-link {
+    display: block;
+    margin-top: 20px;
+    color: #c02626;
+    text-decoration: none;
+    font-size: 0.9rem;
+}
+
+.back-link:hover {
+    color: #e74c3c;
+    text-decoration: underline;
+}
+
+.hero-section {
+    height: 100vh;
+    width: 100%;
+    /* تأكدي إن اسم الصورة هنا هو نفس اسم صورتك اللي في الفولدر */
+    background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), 
+                url(WhatsApp\ Image\ 2026-04-08\ at\ 1.06.27\ PM.jpeg) no-repeat center center/cover;
+                
+    /* الأسطر اللي بتخلي المربع في النص بالظبط */
+    display: flex;             
+    justify-content: center;   
+    align-items: center;       
+    
+    position: relative;
+    text-align: center;
+}
+.nearby-hospital-btn {
+    width: 100%;
+    background-color: #2ecc71; /* لون أخضر يرمز للمساعدة والخرائط */
+    color: white;
+    padding: 12px;
+    margin-top: 10px;
+    border: none;
+    border-radius: 10px;
+    font-size: 1.1rem;
+    font-weight: bold;
+    cursor: pointer;
+    transition: 0.3s;
+    box-shadow: 0 4px 10px rgba(46, 204, 113, 0.3);
+}
+/* تنسيق الزرار الجديد */
+.nearby-btn {
+    width: 100%;
+    background-color: #27ae60; /* أخضر طبي */
+    color: white;
+    padding: 15px;
+    margin-top: 15px;
+    border: none;
+    border-radius: 12px;
+    font-size: 1.1rem;
+    font-weight: bold;
+    cursor: pointer;
+    transition: all 0.3s ease; /* سرعة الحركة */
+    box-shadow: 0 4px 10px rgba(46, 204, 113, 0.3); /* ظل خفيف */
+}
+
+/* تأثير الـ Hover (لما الماوس يلمسه) */
+.nearby-btn:hover {
+    background-color: #2ecc71; /* يفتحّ شوية */
+    transform: translateY(-5px); /* يرتفع لفوق */
+    box-shadow: 0 8px 20px rgba(46, 204, 113, 0.6); /* ينور أخضر قوي */
+}
+
+/* تأثير لما تدوسي عليه بصباعك أو بالماوس */
+.nearby-btn:active {
+    transform: translateY(-2px);
+    box-shadow: 0 4px 10px rgba(46, 204, 113, 0.4);
+}
+/* تنسيق زرار لماذا نحن */
+.why-us-btn {
+    width: 100%;
+    background-color: #f39c12; /* لون برتقالي احترافي */
+    color: white;
+    padding: 15px;
+    margin-top: 15px;
+    border: none;
+    border-radius: 12px;
+    font-size: 1.1rem;
+    font-weight: bold;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+    box-shadow: 0 4px 10px rgba(243, 156, 18, 0.3);
+    text-align: center;
+}
+
+/* تأثير الـ Hover (لما الماوس يلمسه) */
+.why-us-btn:hover {
+    background-color: #e67e22; /* يغمق سنة */
+    transform: translateY(-5px) scale(1.02); /* يترفع لفوق ويكبر شوية */
+    box-shadow: 0 8px 20px rgba(230, 126, 34, 0.5); /* نور برتقالي قوي */
+}
+
+/* تأثير لما تدوسي عليه */
+.why-us-btn:active {
+    transform: translateY(-2px);
+}
+
